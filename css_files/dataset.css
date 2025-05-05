@@ -1,0 +1,21 @@
+.centered {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.multihot {
+  max-width: 490px;
+}
+
+.descriptions-processed {
+  max-width: 850px;
+}
+
+.dataset {
+  max-width: 600px;
+}
+
+.label-distributions {
+
+}
