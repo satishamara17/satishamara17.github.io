@@ -43,7 +43,7 @@
 
     <div>
       <a name="data" class="anchor"></a>
-      <h1>Data</h1>
+      <h1>Data and Dataset Explanation</h1>
       <details open    > 
         <summary class="h2">How did we collect data?</summary>
         <p>We decided to use the <a href="https://developer.imdb.com/non-commercial-datasets/"> title.basics.tsv.gz</a> from the IMDB website.
@@ -63,7 +63,8 @@
         </figure>
         <br>
         <p>
-          Next, the problem we faced was that the dataset we used contained only IMDb IDs, titles, and genres. It did not include posters or plots for each movie. So, we used the TMDB API to retrieve the plot summaries and poster URLs while capping the number of images. One can obtain the plots and poster URLs using the TMDB API by following the steps on <a href="https://developer.themoviedb.org/reference/intro/getting-started">TMDB API</a>
+          Next, the problem we faced was that the dataset we used contained only IMDb IDs, titles, and genres. It did not include posters or plots for each movie. So, we used the TMDB API to retrieve the plot summaries and poster URLs while capping the number of images. One can obtain thier own API KEY for retrieving the plots and poster URLs by following the steps on <a href="https://developer.themoviedb.org/reference/intro/getting-started">TMDB API</a>
+          and <a href="get_data.html">code for getting plots and poster URL using TMDB API.</a>
           TMDB API provides poster URLs and plots using IMDB Ids of the movies. We added the poster URLs and plots of each movie in the datasets in the columns plot and img. One can download the poster using the <a href="download_posters.html">code.</a>
         </p>
         <figure class="dataset centered">
